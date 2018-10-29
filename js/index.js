@@ -45,11 +45,11 @@ document.onreadystatechange = function() {
     setTimeout(function() {
         if (document.readyState == "complete") {
             document.body.style.overflow = "scroll";
-            document.querySelector(".content").className = "content showContent";
+            // document.querySelector(".content").className = "content showContent";
             document.querySelector(".loaderContainer").className = "loaderContainer removeLoader";
         } else {
             document.body.style.overflow = "hidden";
-            document.querySelector(".content").className = "content";
+            // document.querySelector(".content").className = "content";
             document.querySelector(".loaderContainer").className = "loaderContainer";
         }
     }, 2500)
