@@ -1,0 +1,1035 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Standard CSS */
+
+a {
+    color: inherit !important;
+    text-decoration: none;
+    background-color: inherit !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none !important;
+    outline: 0px auto -webkit-focus-ring-color !important;
+    /* color: inherit !important; */
+}
+
+
+/* Standard CSS */
+
+
+/* For Home Page css */
+
+
+/* For Header css */
+
+.leftTwoPix {
+    padding-left: 2px;
+}
+
+.rotateminusNinety {
+    transform: rotate(-90deg);
+    float: right;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.header {
+    background-color: black;
+    padding: 10px 7%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+}
+
+.signupLogin {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.orangeColor {
+    color: orange;
+}
+
+.userIcon {
+    padding-right: 2px;
+    font-size: 11px;
+}
+
+.borderRight {
+    position: relative;
+    padding-right: 14px;
+}
+
+.borderRight::after {
+    content: "";
+    position: absolute;
+    right: 6px;
+    background-color: #fff;
+    height: 9px;
+    width: 1px;
+    top: 7px;
+}
+
+.ourSolution,
+.programmaticS {
+    position: relative;
+}
+
+.ourSolution:hover .ourSolutionDropdoen,
+.programmaticS:hover .programmaticSDropdown {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: unset;
+}
+
+.ourSolutionDropdoen,
+.programmaticSDropdown {
+    position: absolute;
+    background-color: black;
+    top: 36px;
+    border-top: 01px solid #daa336;
+    left: -8px;
+    width: 308px;
+    z-index: 999;
+    transition: 0.6s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ourSolutionDropdoen {
+    transform: translateX(-150px);
+}
+
+.ourSolutionDropdoen li {
+    margin-right: 0 !important;
+}
+
+.ourSolutionDropdoen li a {
+    display: block;
+}
+
+.ourSolutionDropdoen li {
+    border-bottom: 1px solid #6d634f;
+    padding: 10px 10px;
+}
+
+.programmaticSDropdown {
+    top: 0;
+    left: 308px;
+    width: 230px;
+    border-left: 1px solid #6d634f;
+    transform: translateX(150px);
+}
+
+.logoHeaderMenus {
+    display: flex;
+    width: 100%;
+}
+
+.headerMenus li {
+    color: orange;
+    margin-right: 52px;
+}
+
+.headerMenus li:last-child {
+    margin-right: 0;
+}
+
+.headerMenus li:hover,
+.footerLinks li:hover,
+.user li a:hover :last-child,
+.copyRightFooter ul li:hover {
+    color: #e25151;
+}
+
+.headerMenus {
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.bottomSeventen {
+    padding-bottom: 17px;
+    cursor: pointer;
+}
+
+.userMenus {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widthFull {
+    width: 100%;
+}
+
+
+/* For Header css */
+
+
+/* Banner */
+
+.homeImage {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.homeImageContent {
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 99;
+    align-items: baseline;
+    text-align: center;
+}
+
+.digitalText {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.bannerPara {
+    margin-bottom: 0;
+    font-size: 25px;
+    padding-left: 70px;
+}
+
+.bannerOverlay {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.degree {
+    position: relative;
+    color: orange;
+    margin-right: 11px;
+    font-size: 50px;
+}
+
+.degree::after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    top: 13px;
+    right: -14px;
+}
+
+
+/* Banner */
+
+
+/* Who We Are Section css (Home) */
+
+.backImg {
+    padding: 20px 7%;
+    background-image: url(../images/whoBack.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position: 0px 19%;
+    background-size: cover;
+}
+
+.widthHalftPercent {
+    padding-left: 40px;
+}
+
+.boldUnderlineText {
+    margin: 0;
+    position: relative;
+    padding-bottom: 6px;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: unset !important;
+}
+
+.marginthirtyfour {
+    margin-bottom: 22px;
+}
+
+.boldUnderlineText::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    background-color: orange;
+    height: 2px;
+    width: 47px;
+}
+
+.whyPara {
+    padding-bottom: 6px;
+    margin-bottom: 0;
+}
+
+.marginthirtyfour,
+.whyPara {
+    font-family: serif;
+}
+
+.longUnderline::after {
+    left: 0;
+    width: 142px;
+}
+
+.maxHundred {
+    max-width: 100%;
+}
+
+.homeSectionLink {
+    column-count: 2;
+    column-fill: auto;
+    height: 140px;
+    width: 100%;
+}
+
+.homeSectionLink li {
+    padding-bottom: 15px;
+    color: #ff2e2e;
+}
+
+.programLinks {
+    height: 124px;
+}
+
+.homeSections {
+    justify-content: space-between;
+    padding: 70px 126px;
+    padding-bottom: 6px;
+}
+
+
+/* Who We Are Section css (Home) */
+
+
+/* For home page css */
+
+
+/* For Hamburger Menus */
+
+.mobileMenusContainer {
+    position: fixed;
+    top: 0;
+    padding: 85px 25px;
+    background-color: #fff;
+    width: 300px;
+    right: 0;
+    height: 100%;
+    transform: translateX(50%);
+    transition: 0.5s;
+    z-index: 99999;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mobileMenusContainer.open {
+    transform: translateX(0);
+    opacity: 1;
+    transition-delay: 0.2s;
+    pointer-events: unset;
+}
+
+.mobileMenusContainer.open .mobileMensu .menusItem {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.mobileMenusContainer.open .mobileMensu .menusItem:nth-child(1) {
+    transition-delay: 0.2s;
+}
+
+.mobileMenusContainer.open .mobileMensu .menusItem:nth-child(2) {
+    transition-delay: 0.4s;
+}
+
+.mobileMenusContainer.open .mobileMensu .menusItem:nth-child(3) {
+    transition-delay: 0.6s;
+}
+
+.mobileMenusContainer.open .mobileMensu .menusItem:nth-child(4) {
+    transition-delay: 0.8s;
+}
+
+.mobileMenusContainer.open .mobileMensu .menusItem:nth-child(5) {
+    transition-delay: 1s;
+}
+
+.mobileMensu .menusItem {
+    color: black;
+    font-size: 15px;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+    margin-bottom: 30px;
+    transform: translate(110%);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.hamContainer.upHam {
+    top: 8px;
+    right: 14px;
+}
+
+.hamContainer {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 48px;
+    cursor: pointer;
+    z-index: 999999;
+    right: 19px;
+    background-color: black;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.hamLine {
+    transition: 0.5s;
+    background-color: #fff;
+    width: 14px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.hamSecond,
+.hamFirst {
+    top: 15px;
+}
+
+.hamLine,
+.hamFirst,
+.hamThird,
+.hamFifth {
+    left: 11px;
+}
+
+.hamThird,
+.hamFourth {
+    top: 24px;
+}
+
+.hamFourth,
+.hamSixth,
+.hamSecond {
+    left: 25px;
+}
+
+.hamFifth,
+.hamSixth {
+    top: 33px;
+}
+
+.hamContainer.animate {
+    background-color: unset;
+    transition-delay: 0.8s;
+}
+
+.hamContainer.animate .hamLine {
+    background-color: red;
+}
+
+.hamContainer.animate .hamLine.hamThird,
+.hamContainer.animate .hamLine.hamFourth {
+    opacity: 0;
+}
+
+.hamContainer.animate .hamLine.hamFirst {
+    transform: rotate(45deg) translate(3px, 2px);
+}
+
+.hamContainer.animate .hamLine.hamSecond {
+    transform: rotate(-45deg) translate(-5px, 0px);
+}
+
+.hamContainer.animate .hamLine.hamThird {
+    transform: translateX(-18px);
+}
+
+.hamContainer.animate .hamLine.hamFourth {
+    transform: translateX(18px);
+}
+
+.hamContainer.animate .hamLine.hamFifth {
+    transform: rotate(-45deg) translate(4px, -3px);
+}
+
+.hamContainer.animate .hamLine.hamSixth {
+    transform: rotate(45deg) translate(-6px, -1px);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.overlay.showOverlay {
+    pointer-events: unset;
+    opacity: 0.6;
+}
+
+
+/* For Hamburger Menus */
+
+
+/* For Our other aservices */
+
+.backImgCol {
+    background-color: #060606;
+    padding: 20px 0px 86px 0px;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+.bottomSeventy {
+    padding-bottom: 70px;
+}
+
+.gridFourHundred {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+}
+
+.hundredBoth {
+    padding: 0px 100px;
+}
+
+.whiteColor {
+    color: #fff;
+}
+
+.colHeading {
+    padding: 26px 0px;
+    margin: 0;
+    font-size: 22px;
+}
+
+.fiftyTwenty {
+    padding: 0px 20px 0px 50px;
+}
+
+.colLink {
+    padding-bottom: 38px;
+}
+
+.colLink li {
+    padding-bottom: 14px;
+}
+
+.colLink li:last-child {
+    padding-bottom: 0;
+}
+
+.fontTwentySix {
+    font-size: 27px;
+}
+
+.ourHeading {
+    padding-bottom: 14px;
+    margin: 0;
+}
+
+.backImg2 {
+    background-image: url(../images/Ourotheraservices.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.backImg2::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.overlayImgZinex {
+    position: relative;
+    z-index: 99;
+    padding: 30px 0px 100px 0px;
+}
+
+
+/* For Our other aservices */
+
+
+/* Now Thinking About Business CSS */
+
+.backImgSmall {
+    padding: 0;
+    background-color: unset;
+}
+
+.backImgSmall div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.girdImg {
+    grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+}
+
+.backImg3::after {
+    background-color: #005aa2;
+}
+
+.backImg3 {
+    background-image: url(../images/back3.jpg);
+}
+
+.nowThinking {
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    height: 100%;
+    letter-spacing: 2px;
+    padding-right: 10px;
+}
+
+.nowThinkHPara {
+    padding-bottom: 26px;
+}
+
+.lessOverlayPadding {
+    padding-bottom: 60px;
+}
+
+.flexOne {
+    flex: 1;
+}
+
+.ThirtyTwoPercent {
+    width: 32%;
+}
+
+.absoluteBottom {
+    position: absolute;
+    bottom: 64px;
+    left: 60px;
+}
+
+.absoluteBottom p {
+    margin-bottom: 0;
+}
+
+
+/* Now Thinking About Business CSS */
+
+
+/* For Footer CSS*/
+
+.footerHeading {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.bottomTwenty {
+    padding-bottom: 19px;
+}
+
+.footerLinks li {
+    padding-bottom: 8px;
+}
+
+.footerLinks li a {
+    display: block;
+}
+
+.footerLinks li:last-child {
+    padding-bottom: 0;
+}
+
+.social li {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    width: 32px;
+    padding: 4px 4px;
+}
+
+.social li a {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.social li:hover {
+    background-color: #fff;
+}
+
+.social li:hover .fab {
+    color: black;
+}
+
+.social {
+    padding: 30px 0px;
+}
+
+.footerGrid {
+    display: grid;
+    padding: 50px 130px;
+    grid-gap: 0px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(24%, 1fr));
+    color: #b9b7b7;
+    background-color: #101010;
+}
+
+.contentCenter {
+    justify-content: center;
+}
+
+.rightFourtyThree {
+    padding-right: 43px;
+}
+
+
+/* Copy Right Footer CSS Start Here */
+
+.copyRightFooter p {
+    margin-bottom: 0;
+}
+
+.copyRightFooter {
+    padding: 36px 0px;
+    background-color: #1d1a1a;
+    color: #b9b7b7;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.copyRightFooter ul li {
+    border-right: 1px solid;
+    padding: 0px 6px;
+}
+
+.copyRightFooter li:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+
+/* Copy Right Footer CSS Start Here */
+
+
+/* For Footer CSS */
+
+
+/* For Loader CSS */
+
+.loaderContainer.removeLoader {
+    left: -50%;
+}
+
+.loaderContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    background-color: #fff;
+    width: 100%;
+    transition: 1.5s;
+    z-index: 99999;
+}
+
+.loader {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #ce4233;
+    letter-spacing: 0.2em;
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ce4233;
+    position: absolute;
+    animation: load 0.7s infinite alternate ease-in-out;
+}
+
+.loader::before {
+    top: 0;
+}
+
+.loader::after {
+    bottom: 0;
+}
+
+@keyframes load {
+    0% {
+        left: 0;
+        height: 30px;
+        width: 15px;
+    }
+    50% {
+        height: 8px;
+        width: 40px;
+    }
+    100% {
+        left: 235px;
+        height: 30px;
+        width: 15px;
+    }
+}
+
+
+/* For Loader CSS */
+
+
+/* For Mobole responsivness */
+
+@media (max-width:1206px) {
+    .header {
+        padding: 20px 30px 0px 30px;
+    }
+    .hundredBoth {
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width:1085px) {
+    .headerMenus li {
+        margin-right: 26px;
+    }
+}
+
+@media (max-width:916px) {
+    .header {
+        padding: 20px 20px 0px 20px;
+    }
+    .headerMenus {
+        display: none;
+    }
+}
+
+@media (min-width:916px) {
+    .hamContainer,
+    .overlay {
+        display: none;
+    }
+}
+
+@media (max-width:1143px) {
+    .bannerPara {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:716px) {
+    .widthHalftPercent {
+        padding: 39px 28px;
+    }
+}
+
+@media (max-width:765px) {
+    .backImg {
+        padding: 20px 30px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1008px) {
+    .backImg {
+        background-position: right;
+    }
+    .footerGrid div {
+        padding-bottom: 40px;
+    }
+    .footerGrid {
+        grid-template-columns: repeat(auto-fit, minmax(49%, 1fr));
+        padding: 50px 60px;
+    }
+    .contentCenter {
+        justify-content: unset;
+    }
+}
+
+@media (max-width:1052px) {
+    .nowThinking {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:530px) {
+    .backImg {
+        padding: 0;
+    }
+    .boldUnderlineText {
+        font-size: 20px;
+    }
+    .secImg img {
+        width: 100%;
+    }
+    .hundredBoth,
+    .footerGrid {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width:619px) {
+    .footerGrid {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .contentCenter {
+        justify-content: center;
+    }
+    .footerGrid div {
+        padding-right: 0;
+    }
+    .footerGrid div {
+        padding-bottom: 42px;
+    }
+    .social {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width:802px) {
+    .homeSections {
+        flex-direction: column;
+        border-bottom: 1px solid;
+    }
+    .secImg {
+        text-align: center;
+        order: 2;
+    }
+}
+
+@media (max-width:988px) {
+    .homeSections {
+        padding: 54px 34px;
+        padding-bottom: 6px;
+    }
+}
+
+@media (max-width:706px) {
+    .digitalText,
+    .bannerPara,
+    .degree,
+    .degree::after {
+        font-size: 30px;
+    }
+    .homeImageContent {
+        padding: 0 10px;
+    }
+    .degree::after {
+        width: 10px;
+        height: 10px;
+        border: 2px solid orange;
+        top: 9px;
+        right: -13px;
+    }
+    .gridFourHundred {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+@media (max-width:866px) {
+    .nowThinking {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:600px) {
+    .nowThinkHPara {
+        flex-direction: column;
+    }
+    .ThirtyTwoPercent {
+        width: auto;
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width:565px) {
+    .copyRightFooter p {
+        padding-bottom: 10px;
+    }
+    .copyRightFooter {
+        padding: 36px 10px;
+    }
+}
+
+
+/* For Mobole responsivness */
