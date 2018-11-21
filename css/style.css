@@ -5,6 +5,10 @@ html {
     overflow-x: hidden;
 }
 
+.content {
+    visibility: hidden;
+}
+
 
 /* Standard CSS */
 
@@ -801,6 +805,7 @@ a:hover {
     background-color: #fff;
     width: 100%;
     z-index: 99999;
+    visibility: hidden;
 }
 
 .loader {
