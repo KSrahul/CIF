@@ -51,12 +51,12 @@ window.onload = function() {
             if (window.pageYOffset > document.querySelector(".header").offsetTop) {
                 document.querySelector(".header").classList.add("fixed");
                 document.querySelector(".logo").classList.add("logoSmall");
-            } else {
-                document.querySelector(".header").classList.remove("fixed");
-                document.querySelector(".logo").classList.remove("logoSmall");
             }
             // If scroll reach to header on the banner then header should be fixed (End)
         }).scroll();
+    } else {
+        document.querySelector(".header").classList.remove("fixed");
+        document.querySelector(".logo").classList.remove("logoSmall");
     }
     // Try to geeting, that if screen size is less than 768 that only this code will be work (End)
 
