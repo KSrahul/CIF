@@ -1422,5 +1422,16 @@ p {
     } */
 }
 
+@media(min-width:2199px) {
+    .ourTeamInternal {
+        padding-top: 100px;
+        padding-bottom: 160px;
+    }
+    .approachImgCont {
+        padding-top: 150px;
+        padding-bottom: 200px;
+    }
+}
+
 
 /* For Mobile Responsiveness (End)*/
