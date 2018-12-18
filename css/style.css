@@ -1049,7 +1049,8 @@ p {
     .team7,
     .team8,
     .contact5,
-    .contact6 {
+    .contact6,
+    .team13 {
         display: none;
     }
     #whyNow {
