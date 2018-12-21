@@ -38,7 +38,6 @@ window.onload = function() {
             });
             // On scroll navigation highlited or active if reach to perticular section (End)
 
-
             var scrollPos = pageYOffset;
             if (scrollPos >= 1) {
                 document.querySelector(".header").classList.remove("fixed");
