@@ -843,6 +843,16 @@ p {
     padding-top: 0;
 }
 
+.greenImg {
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit: cover;
+}
+
+.inheritHight {
+    height: inherit;
+}
+
 
 /* For Contact section (End)*/
 

@@ -87,3 +87,24 @@ window.onload = function() {
         }
     });
 }
+
+// var input = document.querySelector(".badges");
+// input.addEventListener("keyup", function(keyCodeNum) {
+//     if ((keyCodeNum.keyCode == 13) && (input.value)) {
+//         var ul = document.querySelector(".resultCont")
+//         var li = document.createElement("li");
+//         var valueCont = document.createElement("span");
+//         var img = document.createElement("img");
+//         var imgCont = document.createElement("span");
+//         img.src = "../assets/icons/approach1.svg"
+//         var values = document.createTextNode(input.value)
+//         ul.append(li);
+//         li.append(valueCont, imgCont);
+//         imgCont.append(values, img);
+//         valueCont.append(values);
+//         li.setAttribute("class", "list")
+//         imgCont.setAttribute("class", "removeSearch")
+//         valueCont.setAttribute("class", "values")
+//         input.value = null;
+//     }
+// })
