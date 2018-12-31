@@ -79,11 +79,13 @@ window.onload = function() {
     }
     window.addEventListener("resize", function() {
         if (window.matchMedia("(max-width: 768px)").matches) {
-            if ($(window).width() < 768) {
-                location.reload();
-            } else {
-                location.reload();
-            }
+            setTimeout(function() {
+                if ($(window).width() < 768) {
+                    location.reload();
+                } else {
+                    location.reload();
+                }
+            }, 100)
         }
     });
 }
