@@ -321,8 +321,8 @@ p {
 }
 
 .contact3 {
-    bottom: calc(0px + 8%);
-    left: calc(0px + 44%);
+    bottom: calc(0px + 29%);
+    left: calc(0px + 47%);
 }
 
 #moreVisible {
@@ -695,8 +695,6 @@ p {
     background-size: cover;
 }
 
-.ourTeamInternal {}
-
 .ourTeamInternal {
     width: 56%;
     margin-left: auto;
@@ -734,21 +732,6 @@ p {
 
 /* For our Career section*/
 
-.mailTO {
-    position: relative;
-    color: #057158;
-}
-
-.mailTO::after {
-    content: "";
-    position: absolute;
-    background-color: #057158;
-    height: 1px;
-    left: 0;
-    bottom: 0;
-    width: calc(100% - 6px);
-}
-
 
 /* For our Career section (End)*/
 
@@ -759,8 +742,8 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 101%;
+    height: 101%;
     pointer-events: none;
 }
 
@@ -786,7 +769,7 @@ p {
 .footer {
     background-color: #1c1c1c;
     color: #a5a5a5;
-    padding: 18px 4%;
+    padding: 22px 4%;
 }
 
 .spaceBetween {
@@ -795,11 +778,9 @@ p {
 
 .copyRight p,
 .footerSocial li a {
-    font-family: Arimo;
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 1px;
-    text-align: right;
 }
 
 .copyRight p {
@@ -809,10 +790,12 @@ p {
 .footerSocial li a {
     border: none;
     color: #a5a5a5;
-    margin-right: 43%;
 }
-
-.footerSocial li:last-child a {
+.footerSocial li{
+    margin-right: 40px;
+    display: flex;
+}
+.footerSocial li:last-child{
     margin-right: 0;
 }
 
@@ -853,6 +836,37 @@ p {
     height: inherit;
 }
 
+.programMana {
+    position: relative;
+    padding-bottom: 80px;
+    width: 84%;
+}
+
+.programMana h4 {
+    font-size: 18px;
+    color: #057158;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.linkText {
+    position: relative;
+    color: #057158;
+}
+
+.linkText::after {
+    content: "";
+    position: absolute;
+    background-color: #057158;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 6px);
+}
+
+.programMana p:nth-of-type(1) {
+    padding-bottom: 20px;
+}
 
 /* For Contact section (End)*/
 
@@ -908,53 +922,68 @@ p {
         right: 10%;
         justify-content: flex-end;
     }
+
     .land1 img {
         width: 21px;
         height: 28px;
     }
+
     .land3 img {
         width: 66px;
     }
+
     .land6 img {
         width: 72px;
     }
+
     .land5 img {
         width: 62px;
     }
+
     .approach10 img {
         width: 150px;
     }
+
     .why11 img {
         width: 177px;
     }
+
     .team2 img {
         width: 49px;
     }
+
     .team1 img {
         width: 28px;
         height: 42px;
     }
+
     .team9 img {
         width: 19px;
         height: 42px;
     }
+
     .contact1 img {
         width: 71px;
     }
+
     .contact2 .mobBottomLayer {
         width: 82px;
     }
+
     .contact3 .mobBottomLayer {
         width: 11px;
         height: 40px;
     }
+
     .team10 .mobBottomLayer {
         width: 17px;
     }
+
     .team3 .mobBottomLayer {
         width: 21px;
         height: 34px;
     }
+
     .why11 {
         z-index: 99;
         bottom: calc(0px - 4%);
@@ -962,20 +991,24 @@ p {
         right: 4%;
         text-align: right;
     }
+
     .contact5 {
         top: 25%;
         left: 4%;
     }
+
     .contact6 {
         top: 38%;
         right: 6%;
     }
+
     .land1 {
         display: flex;
         width: 100%;
         justify-content: flex-end;
         top: 18%;
     }
+
     .land3 {
         display: flex;
         height: -webkit-fill-available;
@@ -983,37 +1016,44 @@ p {
         left: 0%;
         top: 74%;
     }
+
     .land6 {
         bottom: 22%;
         display: flex;
         align-items: flex-end;
         right: 8%;
     }
+
     .land5 {
         height: 100%;
         display: flex;
         align-items: flex-end;
         top: 37%;
     }
+
     .approach10 {
         right: 3%;
         bottom: -11%;
         z-index: 99;
     }
+
     .why9 {
         top: calc(0px + 51%);
         right: calc(0px + 4%);
     }
+
     .team1 {
         right: 25%;
         display: flex;
         justify-content: flex-end;
         top: 1%;
     }
+
     .team2 {
         left: 18%;
         top: -3%;
     }
+
     .team9 {
         top: 39%;
         height: max-content;
@@ -1021,24 +1061,29 @@ p {
         display: flex;
         justify-content: flex-end;
     }
+
     .team10 {
         top: 45%;
         right: 10%;
     }
+
     .contact1 {
         top: calc(0px + 1%);
         left: calc(100% - 35%);
     }
+
     .contact2 {
         left: 14%;
-        top: calc(0px + 63%);
+        top: calc(0px + 52%);
     }
+
     .contact3 {
-        bottom: 26%;
+        top: 57%;
         right: 7%;
         display: flex;
         justify-content: flex-end;
     }
+
     .land2,
     .land8,
     .land4,
@@ -1063,9 +1108,11 @@ p {
     .team13 {
         display: none;
     }
+
     #whyNow {
         padding-top: 100px;
     }
+
     .header.fixed {
         background-color: unset;
         position: unset;
@@ -1073,80 +1120,99 @@ p {
         top: 0;
         margin-top: unset;
     }
+
     .deskBottomLayer {
         display: none;
     }
+
     .landing {
         height: auto;
     }
+
     .mobBottomLayer,
     .why11,
     .approach10 {
         display: block !important;
     }
+
     .eightyEighty {
         padding-top: 0;
     }
+
     .bottomLayer {
         bottom: calc(0px - 2px);
     }
+
     .contactBack {
         text-align: center;
         height: 610px;
         display: flex;
         align-items: center;
     }
+
     #contactUs {
         margin-top: -40px;
     }
+
     .contactInternal {
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center
     }
+
     .landing {
         height: 480px;
     }
+
     .bannerPara p {
         font-size: 18px;
         text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     }
+
     .headerMenus {
         padding-top: 20px;
     }
+
     .header {
         flex-direction: column;
         padding: 0;
         margin-top: 40px;
     }
+
     .bannerPara,
     .pageLinks li a {
         padding: 0;
         margin: 0;
     }
+
     .bannerPara {
         width: 100%;
         padding-right: 7%;
     }
+
     .logo img,
     .logo.logoSmall img {
         width: 128px;
         height: 60px;
     }
+
     .bannerImgContent {
         padding: 40px 30px;
         display: flex;
         height: 100%;
         align-items: center;
     }
+
     .menuLinks {
         padding-bottom: 10px;
     }
+
     .bottomFouty,
     .contactDetails {
         padding-bottom: 30px;
     }
+
     .fontTwentyFour h1,
     .fontTwentyFour h2,
     .timeLineCol h2,
@@ -1157,17 +1223,21 @@ p {
     .copyRight p {
         font-family: -webkit-body;
     }
+
     .hiringPara {
         display: block;
         padding-top: 10px;
     }
+
     .teamDes p {
         padding: 10px 0px 40px 0px;
     }
+
     .teamDes h5,
     .contactDetails h6 {
         padding: 5px 0px;
     }
+
     .pageLinks {
         display: flex;
         flex-wrap: wrap;
@@ -1175,61 +1245,72 @@ p {
         column-fill: auto;
         padding-left: 0;
     }
+
     .menuLinks {
         width: 50%;
     }
+
     .whyNowImg {
         display: none;
     }
+
     .approachImgCont,
     .contactInternal,
-    .careerCol {
-        padding: 30px 30px;
-    }
+    .careerCol,
     .sectionOne .oneThirtyTwoRight,
     .sectionThree .sixtySixPer,
     .timeLineBottom,
     .approachImgCont,
     .timeLineCont,
-    .ourTeamInternal {
+    .ourTeamInternal,
+    .programMana {
         padding: 30px 30px;
     }
+
     .timeLineCont {
         padding: 0;
         margin: 0px 30px;
     }
+
     .whyNowText .eightyBottom,
     .ourTeamInternal .eightyBottom,
     .contactInternal .eightyBottom,
     .careerInternal .fontTwentyFour {
         padding-bottom: 30px;
     }
+
     .approachImgCont,
     #ourTeam .ourTeamInternal {
         padding-top: 80px;
         padding-bottom: 80px;
     }
+
     .whyNowText :last-child {
         padding-bottom: 0;
     }
+
     .sectionThree .sixtySixPer,
     .timeLineCol,
     .ourTeamInternal,
     .careerInternal,
     .contactInternal,
     .careerCol,
-    .contactBack {
+    .contactBack,
+    .programMana {
         width: 100%;
     }
+
     .timeLineCol p,
     .teamDes p,
     .contactDetails p,
     #timeline .fiftyTwo p,
     .whyNowText .bottomFouty p,
     .approachImgCont .widthSixty p,
-    .careerInternal p {
+    .careerInternal p,
+    .programMana p {
         font-size: 12px;
     }
+
     .fontTwentyFour h1,
     .fontTwentyFour h2,
     .timeLineCol h2,
@@ -1240,19 +1321,23 @@ p {
     .timeLineCol h2 {
         font-size: 18px;
     }
+
     .timeLineCont {
         margin-top: 40px;
         border-left: 11px solid #057158;
     }
+
     .timeLineBor,
     .bottomTimeLine,
     .contactSection {
         border: none;
         flex-direction: column;
     }
+
     .timeLineBor {
         padding-top: 12px !important;
     }
+
     .time2,
     .timeLineBottom1,
     .bottomTimeLine .timeLineBottom2,
@@ -1261,11 +1346,13 @@ p {
         width: 100%;
         margin-left: 0;
     }
+
     .timeLineCol {
         border-top: 1px solid;
         border-left: 0;
         padding: 10px 10px 40px 10px;
     }
+
     .timeLineCont .timeLineBor,
     .bottomTimeLine,
     .careerInternal,
@@ -1273,31 +1360,43 @@ p {
     .careerInternal .fontTwentyFour h1 {
         padding: 0;
     }
-    .teamDes h6 {
+
+    .teamDes h6,
+    .programMana h4 {
         font-size: 13px;
     }
+
     .approachImgCont .eightyBottom h1,
     .fontTwentyFour h1 {
         font-size: 24px;
     }
+
     .approachImgCont .eightyBottom h1 {
         text-align: center;
     }
+
     .whyNowPeo {
         display: none;
     }
+
     .approachImgCont .eightyBottom,
     .approachParaImg,
     #timeline .botomTwentyPara h1 {
         padding-bottom: 40px;
         padding-left: 0;
     }
+
     .approachIcon img {
         width: 32px;
     }
+
     .approachImgCont .widthSixty .offWhite h2,
     .approachIcon {
         padding-bottom: 10px;
+    }
+    .programMana{
+        padding-top: 0;
+        padding-bottom: 35px;
     }
 }
 
@@ -1305,22 +1404,34 @@ p {
     .footer {
         flex-direction: column;
     }
+
     .footerSocial {
         padding-top: 20px;
         width: 100%;
         justify-content: center;
         flex-direction: column;
     }
+
     .footerSocial li {
         text-align: center;
         padding-bottom: 20px;
     }
+
     .footerSocial li a {
         margin-right: 0;
     }
+
     .copyRight {
         text-align: center;
         padding-bottom: 10px;
+    }
+}
+@media(max-width:311px) {
+    .contact2{
+        top: calc(0px + 48%);
+    }
+    .contact3{
+        top: 53%;
     }
 }
 
@@ -1329,6 +1440,7 @@ p {
         padding-top: 100px;
         padding-bottom: 160px;
     }
+
     .approachImgCont {
         padding-top: 150px;
         padding-bottom: 200px;
