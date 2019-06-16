@@ -321,8 +321,8 @@ p {
 }
 
 .contact3 {
-    bottom: calc(0px + 29%);
-    left: calc(0px + 47%);
+    bottom: calc(0px + 20%);
+    left: calc(0px + 39%);
 }
 
 #moreVisible {
@@ -838,7 +838,7 @@ p {
 
 .programMana {
     position: relative;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     width: 84%;
 }
 
