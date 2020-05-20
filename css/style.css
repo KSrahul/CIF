@@ -828,7 +828,7 @@ p {
 
 .greenImg {
     width: 100%;
-    height: -webkit-fill-available;
+    height: max-content;
     object-fit: cover;
 }
 
